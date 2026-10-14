@@ -1,0 +1,28 @@
+# Ambiente Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Credenciais e segredos
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# Banco de dados local
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários
+.cache/
+*.log
+
+# Dados locais dos agentes
+.agents/

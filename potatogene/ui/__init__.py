@@ -1,0 +1,1 @@
+﻿"""PotatoGene: catálogo educacional local."""
